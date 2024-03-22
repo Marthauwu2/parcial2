@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEADPOOL</title>
+</head>
+<body>
+    <style>
+        body , html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+    .deadpool{
+        position: relative;
+        width: 500px;
+        height: 500px;
+        background: url('img/deadpool.jpg') no-repeat center center/cover ;
+        opacity: 50%;
+        left: 100px;
+        top: 50px;
+    }
+    .texto-resentacion {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: rgb(83, 60, 26);
+        text-align: center;
+    }
+    .circulo{
+
+    }
+    .cuadrado{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(136, 97, 38);
+        position: absolute;
+    }
+    .ojos{
+        display: block;
+        width: 50px;
+        height: 100px;
+        background-color: black;
+        position: relative;
+    }
+    </style>
+    <div class="deadpool">
+    <div class="texto-resentacion">
+        <h1>Mi primer dibujo en CSS</h1>
+        <h2>Diseñado por: Milca </h2>
+        <p>De la especialidad de programacion de 4 semestre de la escuela CETis 131 </p>
+    </div>
+    </div>
+    <div class="cuadrado" style="left: 150px; top: 70px; border-radius: 50%;  "></div>
+    <div class="cuadrado" style="left: 150px; top: 250px; border-radius: 50%;  "></div>
+    <div class="ojos" style="top:-280px; left: 300px;"></div>
+    <div class="ojos" style="top:-180px; left: 300px;"></div>
+</body>
+</html>
